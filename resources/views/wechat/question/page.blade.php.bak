@@ -1,0 +1,25 @@
+@include("wechat.question.common.header",['title'=>'','style'=>"background: url(/static/wechat/question/indexbg.png) center no-repeat;background-size: 100% 100%"])
+<style>
+    a{
+        display: inline-block;
+        width: 40%;
+        height: 30%;
+        border-radius: 50%;
+        margin-left: 7%;
+        background: transparent;
+    }
+    a:nth-child(3){
+        display: block;
+        margin: 0px auto;
+        height: 25%;
+    }
+</style>
+    <div class="page__bd" style="width: 60%;height: 46%;margin: 0px auto;margin-top: 14em;">
+        <a class="nx" href="question/page/1548142623744/{{ idMd5Token(1548142623744) }}"></a>
+        <a class="gj" href="question/page/1548142623744/{{ idMd5Token(1548142623744) }}"></a>
+        <a class="cw" href="question/page/2/{{ idMd5Token(2) }}"></a>
+        <a class="nxg" href="question/page/2/{{ idMd5Token(2) }}"></a>
+        <a class="wm" href="question/page/2/{{ idMd5Token(2) }}"></a>
+    </div>
+<br><br>
+@include("wechat.question.common.footer")
